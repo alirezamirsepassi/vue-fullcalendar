@@ -4,8 +4,11 @@
 
 <script>
     import defaultsDeep from 'lodash.defaultsdeep'
-    import 'fullcalendar'
-    import $ from 'jquery'
+    import 'moment';
+    import 'moment-jalali';
+    import '../dist/fullcalendar.min.js';
+    import '../dist/locale-all.js';
+    import $ from 'jquery';
 
     export default {
         props: {
